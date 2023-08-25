@@ -357,12 +357,12 @@
 
 
 #ifdef  NEUTRONRC_G071
-#define FILE_NAME				"NEUTRONRC_G071"
+#define FILE_NAME				"NEUTRONRC_G071_6288"
 #define FIRMWARE_NAME  			"NeutronRC G0"
-#define DEAD_TIME               20
-#define MILLIVOLT_PER_AMP       34
-#define CURRENT_OFFSET          0
-#define TARGET_VOLTAGE_DIVIDER  210
+#define DEAD_TIME               45
+// #define MILLIVOLT_PER_AMP       34
+// #define CURRENT_OFFSET          0
+#define TARGET_VOLTAGE_DIVIDER  65
 #define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
