@@ -317,7 +317,7 @@
 #ifdef  SEQURE_G071
 #define FILE_NAME				"SEQURE_G071"
 #define FIRMWARE_NAME  			 "SEQURE G071 "
-#define DEAD_TIME               25
+#define DEAD_TIME               10
 // #define MILLIVOLT_PER_AMP       33
 // #define CURRENT_OFFSET          0
 // #define TARGET_STALL_PROTECTION_INTERVAL 9000
@@ -346,7 +346,7 @@
 #ifdef TMOTOR_G071
 #define FILE_NAME				"TMOTOR_G071"
 #define FIRMWARE_NAME  			"T-Motor G071 6288"
-#define DEAD_TIME               35
+#define DEAD_TIME               15
 // #define MILLIVOLT_PER_AMP       67
 // #define CURRENT_OFFSET          0
 #define TARGET_VOLTAGE_DIVIDER  65
@@ -359,7 +359,7 @@
 #ifdef  NEUTRONRC_G071
 #define FILE_NAME				"NEUTRONRC_G071_6288"
 #define FIRMWARE_NAME  			"NeutronRC G0 6288"
-#define DEAD_TIME               40
+#define DEAD_TIME               20
 // #define MILLIVOLT_PER_AMP       34
 // #define CURRENT_OFFSET          0
 #define TARGET_VOLTAGE_DIVIDER  65
