@@ -317,27 +317,27 @@
 #ifdef  SEQURE_G071
 #define FILE_NAME				"SEQURE_G071"
 #define FIRMWARE_NAME  			 "SEQURE G071 "
-#define DEAD_TIME               60
-#define MILLIVOLT_PER_AMP       33
-#define CURRENT_OFFSET          0
-#define TARGET_STALL_PROTECTION_INTERVAL 9000
-#define TARGET_VOLTAGE_DIVIDER  210
-#define HARDWARE_GROUP_G0_A
+#define DEAD_TIME               25
+// #define MILLIVOLT_PER_AMP       33
+// #define CURRENT_OFFSET          0
+// #define TARGET_STALL_PROTECTION_INTERVAL 9000
+#define TARGET_VOLTAGE_DIVIDER  65
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
-#define CURRENT_ADC_CHANNEL LL_ADC_CHANNEL_4
-#define CURRENT_ADC_PIN LL_GPIO_PIN_4
-#define USE_LED_STRIP
+// #define CURRENT_ADC_CHANNEL LL_ADC_CHANNEL_4
+// #define CURRENT_ADC_PIN LL_GPIO_PIN_4
+#define USE_LED_STRIP //use this
 #endif
 
 #ifdef HAKRC_2023_G071
 #define FILE_NAME				"HAKRC_2023_G071"
 #define FIRMWARE_NAME  			"HAKRC G0_23 "
-#define DEAD_TIME               60
-#define MILLIVOLT_PER_AMP       45
-#define CURRENT_OFFSET          515
-#define TARGET_VOLTAGE_DIVIDER  110
-#define HARDWARE_GROUP_G0_I
+#define DEAD_TIME               30
+// #define MILLIVOLT_PER_AMP       45
+// #define CURRENT_OFFSET          515
+#define TARGET_VOLTAGE_DIVIDER  65
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -345,12 +345,12 @@
 
 #ifdef TMOTOR_G071
 #define FILE_NAME				"TMOTOR_G071"
-#define FIRMWARE_NAME  			"T-Motor G071"
-#define DEAD_TIME               60
-#define MILLIVOLT_PER_AMP       67
-#define CURRENT_OFFSET          0
-#define TARGET_VOLTAGE_DIVIDER  110
-#define HARDWARE_GROUP_G0_H
+#define FIRMWARE_NAME  			"T-Motor G071 6288"
+#define DEAD_TIME               35
+// #define MILLIVOLT_PER_AMP       67
+// #define CURRENT_OFFSET          0
+#define TARGET_VOLTAGE_DIVIDER  65
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -358,8 +358,8 @@
 
 #ifdef  NEUTRONRC_G071
 #define FILE_NAME				"NEUTRONRC_G071_6288"
-#define FIRMWARE_NAME  			"NeutronRC G0"
-#define DEAD_TIME               45
+#define FIRMWARE_NAME  			"NeutronRC G0 6288"
+#define DEAD_TIME               40
 // #define MILLIVOLT_PER_AMP       34
 // #define CURRENT_OFFSET          0
 #define TARGET_VOLTAGE_DIVIDER  65
