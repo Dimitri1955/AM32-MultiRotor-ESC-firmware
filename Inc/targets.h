@@ -372,10 +372,10 @@
 #ifdef AIKON_PRO_G071
 #define FILE_NAME				"AIKON_PRO_G071"
 #define FIRMWARE_NAME  			"AIKON PRO 50"
-#define DEAD_TIME               60
+#define DEAD_TIME               50
 #define MILLIVOLT_PER_AMP       67
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_G
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -387,7 +387,7 @@
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       15
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_A
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #endif
 
@@ -395,8 +395,8 @@
 #ifdef  IFLIGHT_BLITZ_G071
 #define FILE_NAME				"IFLIGHT_BLITZ_G071"
 #define FIRMWARE_NAME  			"Blitz 55 G0 "
-#define DEAD_TIME               60
-#define MILLIVOLT_PER_AMP       15
+#define DEAD_TIME               80
+#define MILLIVOLT_PER_AMP       25
 #define CURRENT_OFFSET          0
 #define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
@@ -429,7 +429,7 @@
 #define TARGET_VOLTAGE_DIVIDER  110
 #define PA6_VOLTAGE
 //#define USE_SERIAL_TELEMETRY
-#define USE_CRSF_INPUT
+//#define USE_CRSF_INPUT
 #define TARGET_STALL_PROTECTION_INTERVAL 9000
 #endif
 
@@ -443,7 +443,7 @@
 #define TARGET_VOLTAGE_DIVIDER  110
 #define PA6_VOLTAGE
 //#define USE_SERIAL_TELEMETRY
-#define USE_CRSF_INPUT
+//#define USE_CRSF_INPUT
 //#define TARGET_STALL_PROTECTION_INTERVAL 9000
 #endif
 
@@ -451,10 +451,11 @@
 #ifdef  PWM_ENABLE_G071
 #define FILE_NAME				"PWM_ENABLE_G071"
 #define FIRMWARE_NAME           "G071 PWM_EN "
-#define DEAD_TIME               210
-#define MILLIVOLT_PER_AMP       20
+#define DEAD_TIME               45
+#define MILLIVOLT_PER_AMP       65
 #define CURRENT_OFFSET          0
 #define HARDWARE_GROUP_G0_N
+#define TARGET_VOLTAGE_DIVIDER  110
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -462,10 +463,10 @@
 #ifdef  OPEN_DRAIN_G071
 #define FILE_NAME				"OPEN_DRAIN_G071"
 #define FIRMWARE_NAME           "G071 TEENSY "
-#define DEAD_TIME               60
+#define DEAD_TIME               70
 #define MILLIVOLT_PER_AMP       20
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_C
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -473,10 +474,10 @@
 #ifdef  OPEN_DRAIN_B_G071
 #define FILE_NAME				"OPEN_DRAIN_B_G071"
 #define FIRMWARE_NAME           "G071 TEENSYB"
-#define DEAD_TIME               60
+#define DEAD_TIME               75
 #define MILLIVOLT_PER_AMP       20
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_D
+#define HARDWARE_GROUP_G0_N
 #define SIXTY_FOUR_KB_MEMORY
 #endif
 
