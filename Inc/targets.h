@@ -422,31 +422,39 @@
 #ifdef  DT120_64K_G071
 #define FILE_NAME				"DT120_64K_G071"
 #define FIRMWARE_NAME  			"G071 120 64K"
-#define DEAD_TIME               120
-#define MILLIVOLT_PER_AMP       67
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_G0_N
+#define MILLIVOLT_PER_AMP       65
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_A
-#define SIXTY_FOUR_KB_MEMORY
+#define TARGET_VOLTAGE_DIVIDER  110
+#define PA6_VOLTAGE
+//#define USE_SERIAL_TELEMETRY
+#define USE_CRSF_INPUT
+#define TARGET_STALL_PROTECTION_INTERVAL 9000
 #endif
 
 #ifdef  DT160_64K_G071
 #define FILE_NAME				"DT160_64K_G071"
 #define FIRMWARE_NAME  			"G071 160 64K"
-#define DEAD_TIME               210
-#define MILLIVOLT_PER_AMP       67
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_G0_N
+#define MILLIVOLT_PER_AMP       65
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_A
-#define SIXTY_FOUR_KB_MEMORY
+#define TARGET_VOLTAGE_DIVIDER  110
+#define PA6_VOLTAGE
+//#define USE_SERIAL_TELEMETRY
+#define USE_CRSF_INPUT
+//#define TARGET_STALL_PROTECTION_INTERVAL 9000
 #endif
 
 
 #ifdef  PWM_ENABLE_G071
 #define FILE_NAME				"PWM_ENABLE_G071"
 #define FIRMWARE_NAME           "G071 PWM_EN "
-#define DEAD_TIME               60
+#define DEAD_TIME               210
 #define MILLIVOLT_PER_AMP       20
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_B
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
