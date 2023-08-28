@@ -398,7 +398,7 @@
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       15
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_F
+#define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
 #define SIXTY_FOUR_KB_MEMORY
 #endif
@@ -407,11 +407,16 @@
 #ifdef  DT120_G071
 #define FILE_NAME				"DT120_G071"
 #define FIRMWARE_NAME  			"G071 120 DT "
-#define DEAD_TIME               120
-#define MILLIVOLT_PER_AMP       15
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_G0_N
+#define MILLIVOLT_PER_AMP       65
 #define CURRENT_OFFSET          0
-#define HARDWARE_GROUP_G0_A
-#define USE_SERIAL_TELEMETRY
+#define TARGET_VOLTAGE_DIVIDER  110
+#define PA6_VOLTAGE
+//#define USE_SERIAL_TELEMETRY
+#define USE_CRSF_INPUT
+#define TARGET_STALL_PROTECTION_INTERVAL 9000
+
 #endif
 
 #ifdef  DT120_64K_G071
