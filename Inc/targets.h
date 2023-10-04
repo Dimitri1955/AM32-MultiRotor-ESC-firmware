@@ -356,27 +356,32 @@
 #endif
 
 
-#ifdef  NEUTRONRC_G071
-#define FILE_NAME				"NEUTRONRC_G071_6288"
-#define FIRMWARE_NAME  			"NeutronRC G7 6288"
-#define DEAD_TIME               17.5
-// #define MILLIVOLT_PER_AMP       34
-// #define CURRENT_OFFSET          0
-#define TARGET_VOLTAGE_DIVIDER  65
+#ifdef  Aerometall_32_S200
+#define FILE_NAME				"Aerometall_32_S200"
+#define FIRMWARE_NAME  			"DT Aerometall G071"
+#define DEAD_TIME               60
+#define MILLIVOLT_PER_AMP       15
+#define CURRENT_OFFSET          0
+#define TARGET_VOLTAGE_DIVIDER  210
 #define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
+#define CURRENT_ADC_CHANNEL LL_ADC_CHANNEL_4
+#define CURRENT_ADC_PIN LL_GPIO_PIN_4
 #define SIXTY_FOUR_KB_MEMORY
 #endif
 
 
-#ifdef AIKON_PRO_G071
-#define FILE_NAME				"AIKON_PRO_G071"
-#define FIRMWARE_NAME  			"AIKON PRO 50"
-#define DEAD_TIME               50
-#define MILLIVOLT_PER_AMP       67
+#ifdef  Aerometall_32_S80
+#define FILE_NAME				"Aerometall_32_S80"
+#define FIRMWARE_NAME  			"DT Aerometall G071"
+#define DEAD_TIME               60
+#define MILLIVOLT_PER_AMP       33
 #define CURRENT_OFFSET          0
+#define TARGET_VOLTAGE_DIVIDER  210
 #define HARDWARE_GROUP_G0_N
 #define USE_SERIAL_TELEMETRY
+#define CURRENT_ADC_CHANNEL LL_ADC_CHANNEL_4
+#define CURRENT_ADC_PIN LL_GPIO_PIN_4
 #define SIXTY_FOUR_KB_MEMORY
 #endif
 
