@@ -356,7 +356,7 @@
 #endif
 
 
-#ifdef  Aerometall_32_S200
+#ifdef  NEUTRONRC_G071
 #define FILE_NAME				"Aerometall_32_S200"
 #define FIRMWARE_NAME  			"DT Aerometall G071"
 #define DEAD_TIME               60
@@ -371,7 +371,7 @@
 #endif
 
 
-#ifdef  Aerometall_32_S80
+#ifdef  AIKON_PRO_G071
 #define FILE_NAME				"Aerometall_32_S80"
 #define FIRMWARE_NAME  			"DT Aerometall G071"
 #define DEAD_TIME               60
