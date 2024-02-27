@@ -357,7 +357,7 @@
 
 
 #ifdef  NEUTRONRC_G071
-#define FILE_NAME				"Aerometall_32_S200"
+#define FILE_NAME				"Aerometall_32"
 #define FIRMWARE_NAME  			"DT Aerometall G071"
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       15
@@ -372,8 +372,8 @@
 
 
 #ifdef  AIKON_PRO_G071
-#define FILE_NAME				"Aerometall_32_S80"
-#define FIRMWARE_NAME  			"DT Aerometall G071"
+#define FILE_NAME				"Aerometall RIE"
+#define FIRMWARE_NAME  			"RIE EZrobo Drive"
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       33
 #define CURRENT_OFFSET          0
