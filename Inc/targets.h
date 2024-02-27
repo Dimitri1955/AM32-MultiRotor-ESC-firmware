@@ -372,7 +372,7 @@
 
 
 #ifdef  AIKON_PRO_G071
-#define FILE_NAME				"Aerometall RIE"
+#define FILE_NAME				"Aerometall_RIE"
 #define FIRMWARE_NAME  			"RIE EZrobo Drive"
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       33
